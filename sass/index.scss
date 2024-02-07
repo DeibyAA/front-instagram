@@ -1,0 +1,87 @@
+@mixin section-display {
+    width: 100%;
+    max-width: 992px;
+    margin: auto;
+    padding: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.container {
+    @include section-display();
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-img img {
+    width: 400px;
+    height: auto;
+}
+
+.form-instagram {
+    max-width: 300px;
+    .formulario {
+        width: 359px;
+        font-size: 0.7rem;
+        .img-instagram-logo {
+            max-width: 200px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 2rem;
+        }
+        .form {
+            flex: 1;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            input {
+                padding: 2px;
+            }
+        }    
+    }
+}
+
+.btn{
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.separator{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    hr {
+        flex-grow: 1;
+        border: none;
+    }
+    
+}
+
+
+.facebook-picture picture{
+    width: 25px;
+    height: 25px;
+    border-radius:2px ;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
