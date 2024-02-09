@@ -32,9 +32,9 @@ body {
 }
 
 .form-instagram {
-    max-width: 295px;
+    max-width: 290px;
     .formulario {
-        width: 359px;
+        width: 355px;
         font-size: 0.8rem;
         .img-instagram-logo {
             max-width: 200px;
@@ -46,39 +46,44 @@ body {
         .form {
             flex: 1;
             padding: 0px;
-            max-width: 300px;
+            max-width: 280px;
             margin: 0 auto;
+            text-align: center;
             
             input {
-                text-align: center;
-                padding: 0px;
-                height: 35px;
+                padding: 20px;
+                height: 5px;
                 border-radius: 0.15rem;
+                display: block;
+                margin: 0 auto;
             }
-            label {
+            .btn {
+                font-weight: 500;
+                font-size: 1rem;
+                text-align: center;
+                padding: 5px;
+                border-radius: 10px;
+                cursor: pointer;
             }
+            
         }    
     }
-}
-
-.btn{
-    font-weight: 500;
-    font-size: 14pt;
-    text-align: center;
-    padding: 15px;
-    border-radius: 10px;
-    cursor: pointer;
 }
 
 .separator{
     display: flex;
     width: 100%;
-    gap: 15px;
+    gap: 20px;
     hr {
+        color: #737373;
+        margin-top: 0.3rem;
         flex-grow: 1;
         border: none;
     }
-    
+    .icon {
+        font-weight: 600;
+        color: #737373;
+    }
 }
 
 
@@ -92,3 +97,22 @@ body {
     float: left;
 }
 
+.footer-text {
+    text-align: center;
+    color: #262626;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .img-1 {
+        width: 45%;
+        height: auto;
+    }
+    .img-2 {
+        width: 35%;
+        height: auto;
+    }
+}

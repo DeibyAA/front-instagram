@@ -24,9 +24,9 @@ body {
   height: auto; }
 
 .form-instagram {
-  max-width: 295px; }
+  max-width: 290px; }
   .form-instagram .formulario {
-    width: 359px;
+    width: 355px;
     font-size: 0.8rem; }
     .form-instagram .formulario .img-instagram-logo {
       max-width: 200px;
@@ -37,29 +37,35 @@ body {
     .form-instagram .formulario .form {
       flex: 1;
       padding: 0px;
-      max-width: 300px;
-      margin: 0 auto; }
+      max-width: 280px;
+      margin: 0 auto;
+      text-align: center; }
       .form-instagram .formulario .form input {
+        padding: 20px;
+        height: 5px;
+        border-radius: 0.15rem;
+        display: block;
+        margin: 0 auto; }
+      .form-instagram .formulario .form .btn {
+        font-weight: 500;
+        font-size: 1rem;
         text-align: center;
-        padding: 0px;
-        height: 35px;
-        border-radius: 0.15rem; }
-
-.btn {
-  font-weight: 500;
-  font-size: 14pt;
-  text-align: center;
-  padding: 15px;
-  border-radius: 10px;
-  cursor: pointer; }
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer; }
 
 .separator {
   display: flex;
   width: 100%;
-  gap: 15px; }
+  gap: 20px; }
   .separator hr {
+    color: #737373;
+    margin-top: 0.3rem;
     flex-grow: 1;
     border: none; }
+  .separator .icon {
+    font-weight: 600;
+    color: #737373; }
 
 .facebook-picture picture {
   width: 25px;
@@ -69,5 +75,21 @@ body {
   align-items: center;
   justify-content: center;
   float: left; }
+
+.footer-text {
+  text-align: center;
+  color: #262626;
+  justify-content: center; }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .footer .img-1 {
+    width: 45%;
+    height: auto; }
+  .footer .img-2 {
+    width: 35%;
+    height: auto; }
 
 /*# sourceMappingURL=styles.css.map */
