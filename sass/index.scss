@@ -46,24 +46,31 @@ body {
         .form {
             flex: 1;
             padding: 0px;
-            max-width: 280px;
+            max-width: 275px;
             margin: 0 auto;
             text-align: center;
-            
             input {
-                padding: 20px;
-                height: 5px;
+                height: 10px;
                 border-radius: 0.15rem;
                 display: block;
                 margin: 0 auto;
+                background-color: #FAFAFA;
+                box-shadow: none;
+            }
+            label {
+                padding: 0.5rem;
+                color: #737373;
+                font-size: 0.75rem;
             }
             .btn {
                 font-weight: 500;
-                font-size: 1rem;
+                font-size: 0.8rem;
                 text-align: center;
                 padding: 5px;
-                border-radius: 10px;
+                border-radius: 7px;
                 cursor: pointer;
+                background-color: #4CB5F9;
+                color: white;
             }
             
         }    
@@ -87,7 +94,12 @@ body {
 }
 
 
-.facebook-picture picture{
+.facebook-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    picture {
     width: 25px;
     height: 25px;
     border-radius:2px ;
@@ -95,6 +107,15 @@ body {
     align-items: center;
     justify-content: center;
     float: left;
+    img {
+        border: none;
+    }
+    }
+    span {
+        text-align: center;
+        color: #3F5789;
+        font-weight: 600;
+    }
 }
 
 .footer-text {

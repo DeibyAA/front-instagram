@@ -37,22 +37,29 @@ body {
     .form-instagram .formulario .form {
       flex: 1;
       padding: 0px;
-      max-width: 280px;
+      max-width: 275px;
       margin: 0 auto;
       text-align: center; }
       .form-instagram .formulario .form input {
-        padding: 20px;
-        height: 5px;
+        height: 10px;
         border-radius: 0.15rem;
         display: block;
-        margin: 0 auto; }
+        margin: 0 auto;
+        background-color: #FAFAFA;
+        box-shadow: none; }
+      .form-instagram .formulario .form label {
+        padding: 0.5rem;
+        color: #737373;
+        font-size: 0.75rem; }
       .form-instagram .formulario .form .btn {
         font-weight: 500;
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: center;
         padding: 5px;
-        border-radius: 10px;
-        cursor: pointer; }
+        border-radius: 7px;
+        cursor: pointer;
+        background-color: #4CB5F9;
+        color: white; }
 
 .separator {
   display: flex;
@@ -67,14 +74,25 @@ body {
     font-weight: 600;
     color: #737373; }
 
-.facebook-picture picture {
-  width: 25px;
-  height: 25px;
-  border-radius: 2px;
+.facebook-picture {
   display: flex;
-  align-items: center;
   justify-content: center;
-  float: left; }
+  align-items: center;
+  cursor: pointer; }
+  .facebook-picture picture {
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left; }
+    .facebook-picture picture img {
+      border: none; }
+  .facebook-picture span {
+    text-align: center;
+    color: #3F5789;
+    font-weight: 600; }
 
 .footer-text {
   text-align: center;
